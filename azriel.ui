@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>724</width>
-    <height>428</height>
+    <width>736</width>
+    <height>427</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,7 +17,7 @@
    <widget class="QGroupBox" name="portInfo">
     <property name="geometry">
      <rect>
-      <x>0</x>
+      <x>10</x>
       <y>0</y>
       <width>711</width>
       <height>361</height>
@@ -91,142 +91,6 @@
       <string>Gun_Training:</string>
      </property>
     </widget>
-    <widget class="QLabel" name="l_Commodities">
-     <property name="geometry">
-      <rect>
-       <x>330</x>
-       <y>60</y>
-       <width>101</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <weight>75</weight>
-       <bold>true</bold>
-      </font>
-     </property>
-     <property name="text">
-      <string>Commodities:</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="l_Food">
-     <property name="geometry">
-      <rect>
-       <x>330</x>
-       <y>84</y>
-       <width>67</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Food:</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="l_Cloth">
-     <property name="geometry">
-      <rect>
-       <x>330</x>
-       <y>115</y>
-       <width>67</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Cloth:</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="l_Minerals">
-     <property name="geometry">
-      <rect>
-       <x>330</x>
-       <y>145</y>
-       <width>67</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Minerals:</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="l_Wine">
-     <property name="geometry">
-      <rect>
-       <x>330</x>
-       <y>176</y>
-       <width>67</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Wine:</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="l_Grain">
-     <property name="geometry">
-      <rect>
-       <x>330</x>
-       <y>204</y>
-       <width>67</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Grain:</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="l_Timber">
-     <property name="geometry">
-      <rect>
-       <x>330</x>
-       <y>235</y>
-       <width>67</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Timber:</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="l_Paper">
-     <property name="geometry">
-      <rect>
-       <x>330</x>
-       <y>264</y>
-       <width>67</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Paper:</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="l_Leather">
-     <property name="geometry">
-      <rect>
-       <x>330</x>
-       <y>294</y>
-       <width>67</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Leather:</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="l_Compare">
-     <property name="geometry">
-      <rect>
-       <x>320</x>
-       <y>3</y>
-       <width>111</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>Compare Port:</string>
-     </property>
-    </widget>
     <widget class="QLabel" name="l_port_id">
      <property name="geometry">
       <rect>
@@ -289,137 +153,6 @@
       <bool>true</bool>
      </property>
     </widget>
-    <widget class="QLineEdit" name="le_Food">
-     <property name="enabled">
-      <bool>true</bool>
-     </property>
-     <property name="geometry">
-      <rect>
-       <x>410</x>
-       <y>80</y>
-       <width>113</width>
-       <height>27</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>0</string>
-     </property>
-     <property name="readOnly">
-      <bool>true</bool>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="le_Cloth">
-     <property name="geometry">
-      <rect>
-       <x>410</x>
-       <y>110</y>
-       <width>113</width>
-       <height>27</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>0</string>
-     </property>
-     <property name="readOnly">
-      <bool>true</bool>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="le_Minerals">
-     <property name="geometry">
-      <rect>
-       <x>410</x>
-       <y>140</y>
-       <width>113</width>
-       <height>27</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>0</string>
-     </property>
-     <property name="readOnly">
-      <bool>true</bool>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="le_Wine">
-     <property name="geometry">
-      <rect>
-       <x>410</x>
-       <y>170</y>
-       <width>113</width>
-       <height>27</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>0</string>
-     </property>
-     <property name="readOnly">
-      <bool>true</bool>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="le_Grain">
-     <property name="geometry">
-      <rect>
-       <x>410</x>
-       <y>200</y>
-       <width>113</width>
-       <height>27</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>0</string>
-     </property>
-     <property name="readOnly">
-      <bool>true</bool>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="le_Timber">
-     <property name="geometry">
-      <rect>
-       <x>410</x>
-       <y>230</y>
-       <width>113</width>
-       <height>27</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>0</string>
-     </property>
-     <property name="readOnly">
-      <bool>true</bool>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="le_Paper">
-     <property name="geometry">
-      <rect>
-       <x>410</x>
-       <y>260</y>
-       <width>113</width>
-       <height>27</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>0</string>
-     </property>
-     <property name="readOnly">
-      <bool>true</bool>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="le_Leather">
-     <property name="geometry">
-      <rect>
-       <x>410</x>
-       <y>290</y>
-       <width>113</width>
-       <height>27</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>0</string>
-     </property>
-     <property name="readOnly">
-      <bool>true</bool>
-     </property>
-    </widget>
     <widget class="QPushButton" name="b_New">
      <property name="geometry">
       <rect>
@@ -475,208 +208,18 @@
       <string>Delete</string>
      </property>
     </widget>
-    <widget class="QComboBox" name="comboBox_2">
-     <property name="geometry">
-      <rect>
-       <x>430</x>
-       <y>0</y>
-       <width>161</width>
-       <height>27</height>
-      </rect>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="le_Food_2">
-     <property name="enabled">
-      <bool>true</bool>
-     </property>
-     <property name="geometry">
-      <rect>
-       <x>540</x>
-       <y>80</y>
-       <width>113</width>
-       <height>27</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>0</string>
-     </property>
-     <property name="readOnly">
-      <bool>true</bool>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="le_Grain_2">
-     <property name="geometry">
-      <rect>
-       <x>540</x>
-       <y>200</y>
-       <width>113</width>
-       <height>27</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>0</string>
-     </property>
-     <property name="readOnly">
-      <bool>true</bool>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="le_Leather_2">
-     <property name="geometry">
-      <rect>
-       <x>540</x>
-       <y>290</y>
-       <width>113</width>
-       <height>27</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>0</string>
-     </property>
-     <property name="readOnly">
-      <bool>true</bool>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="le_Wine_2">
-     <property name="geometry">
-      <rect>
-       <x>540</x>
-       <y>170</y>
-       <width>113</width>
-       <height>27</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>0</string>
-     </property>
-     <property name="readOnly">
-      <bool>true</bool>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="le_Timber_2">
-     <property name="geometry">
-      <rect>
-       <x>540</x>
-       <y>230</y>
-       <width>113</width>
-       <height>27</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>0</string>
-     </property>
-     <property name="readOnly">
-      <bool>true</bool>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="le_Paper_2">
-     <property name="geometry">
-      <rect>
-       <x>540</x>
-       <y>260</y>
-       <width>113</width>
-       <height>27</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>0</string>
-     </property>
-     <property name="readOnly">
-      <bool>true</bool>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="le_Minerals_2">
-     <property name="geometry">
-      <rect>
-       <x>540</x>
-       <y>140</y>
-       <width>113</width>
-       <height>27</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>0</string>
-     </property>
-     <property name="readOnly">
-      <bool>true</bool>
-     </property>
-    </widget>
-    <widget class="QLineEdit" name="le_Cloth_2">
-     <property name="geometry">
-      <rect>
-       <x>540</x>
-       <y>110</y>
-       <width>113</width>
-       <height>27</height>
-      </rect>
-     </property>
-     <property name="text">
-      <string>0</string>
-     </property>
-     <property name="readOnly">
-      <bool>true</bool>
-     </property>
-    </widget>
-    <widget class="QLabel" name="l_Distance">
-     <property name="geometry">
-      <rect>
-       <x>430</x>
-       <y>30</y>
-       <width>101</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <weight>50</weight>
-       <bold>false</bold>
-      </font>
-     </property>
-     <property name="text">
-      <string>Distance:</string>
-     </property>
-    </widget>
-    <widget class="QLabel" name="l_Distance_2">
-     <property name="geometry">
-      <rect>
-       <x>540</x>
-       <y>30</y>
-       <width>51</width>
-       <height>17</height>
-      </rect>
-     </property>
-     <property name="font">
-      <font>
-       <weight>50</weight>
-       <bold>false</bold>
-      </font>
-     </property>
-     <property name="text">
-      <string>0</string>
-     </property>
-    </widget>
     <widget class="QGroupBox" name="gb_Commodities">
      <property name="geometry">
       <rect>
        <x>300</x>
        <y>0</y>
-       <width>441</width>
+       <width>421</width>
        <height>351</height>
       </rect>
      </property>
      <property name="title">
       <string/>
      </property>
-     <widget class="QWidget" name="verticalLayoutWidget">
-      <property name="geometry">
-       <rect>
-        <x>360</x>
-        <y>80</y>
-        <width>160</width>
-        <height>241</height>
-       </rect>
-      </property>
-      <layout class="QVBoxLayout" name="verticalLayout"/>
-     </widget>
      <widget class="QLabel" name="label_9">
       <property name="geometry">
        <rect>
@@ -780,7 +323,452 @@
        <string>0</string>
       </property>
      </widget>
-     <zorder>verticalLayoutWidget</zorder>
+     <widget class="QLineEdit" name="le_Cloth">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>107</y>
+        <width>113</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="l_Leather">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>291</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Leather:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="l_Distance">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>27</y>
+        <width>101</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Distance:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="l_Paper">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>261</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Paper:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="le_Cloth_2">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>107</y>
+        <width>113</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="le_Minerals">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>137</y>
+        <width>113</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="le_Food_2">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>77</y>
+        <width>113</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="le_Paper">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>257</y>
+        <width>113</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="l_Grain">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>201</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Grain:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="le_Grain_2">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>197</y>
+        <width>113</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="l_Timber">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>232</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Timber:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="l_Cloth">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>112</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Cloth:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="le_Leather_2">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>287</y>
+        <width>113</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="l_Distance_2">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>27</y>
+        <width>51</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>50</weight>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="le_Minerals_2">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>137</y>
+        <width>113</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="le_Wine_2">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>167</y>
+        <width>113</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="l_Compare">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>111</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Compare Port:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="le_Paper_2">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>257</y>
+        <width>113</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="l_Food">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>81</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Food:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="le_Wine">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>167</y>
+        <width>113</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="le_Grain">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>197</y>
+        <width>113</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="le_Timber">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>227</y>
+        <width>113</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="le_Food">
+      <property name="enabled">
+       <bool>true</bool>
+      </property>
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>77</y>
+        <width>113</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="le_Leather">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>287</y>
+        <width>113</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="l_Commodities">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>57</y>
+        <width>101</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="text">
+       <string>Commodities:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="le_Timber_2">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>227</y>
+        <width>113</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>0</string>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="l_Minerals">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>142</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Minerals:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="l_Wine">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>173</y>
+        <width>67</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Wine:</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_2">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>0</y>
+        <width>161</width>
+        <height>27</height>
+       </rect>
+      </property>
+     </widget>
      <zorder>label_9</zorder>
      <zorder>l_factor</zorder>
      <zorder>le_Longitude_2</zorder>
@@ -789,6 +777,35 @@
      <zorder>l_Bearing</zorder>
      <zorder>l_Bearing_2</zorder>
      <zorder>le_Food</zorder>
+     <zorder>le_Cloth</zorder>
+     <zorder>l_Leather</zorder>
+     <zorder>l_Distance</zorder>
+     <zorder>l_Paper</zorder>
+     <zorder>le_Cloth_2</zorder>
+     <zorder>le_Minerals</zorder>
+     <zorder>le_Food_2</zorder>
+     <zorder>le_Paper</zorder>
+     <zorder>l_Grain</zorder>
+     <zorder>le_Grain_2</zorder>
+     <zorder>l_Timber</zorder>
+     <zorder>l_Cloth</zorder>
+     <zorder>le_Leather_2</zorder>
+     <zorder>l_Distance_2</zorder>
+     <zorder>le_Minerals_2</zorder>
+     <zorder>le_Wine_2</zorder>
+     <zorder>l_Compare</zorder>
+     <zorder>le_Paper_2</zorder>
+     <zorder>l_Food</zorder>
+     <zorder>le_Wine</zorder>
+     <zorder>le_Grain</zorder>
+     <zorder>le_Timber</zorder>
+     <zorder>le_Food</zorder>
+     <zorder>le_Leather</zorder>
+     <zorder>l_Commodities</zorder>
+     <zorder>le_Timber_2</zorder>
+     <zorder>l_Minerals</zorder>
+     <zorder>l_Wine</zorder>
+     <zorder>comboBox_2</zorder>
     </widget>
     <zorder>gb_Commodities</zorder>
     <zorder>port</zorder>
@@ -796,44 +813,15 @@
     <zorder>l_Longitutde</zorder>
     <zorder>l_Latitude</zorder>
     <zorder>l_Gun_Training</zorder>
-    <zorder>l_Commodities</zorder>
-    <zorder>l_Food</zorder>
-    <zorder>l_Cloth</zorder>
-    <zorder>l_Minerals</zorder>
-    <zorder>l_Wine</zorder>
-    <zorder>l_Grain</zorder>
-    <zorder>l_Timber</zorder>
-    <zorder>l_Paper</zorder>
-    <zorder>l_Leather</zorder>
-    <zorder>l_Compare</zorder>
     <zorder>l_port_id</zorder>
     <zorder>comboBox</zorder>
     <zorder>le_Longitude</zorder>
     <zorder>le_Latitude</zorder>
     <zorder>le_Gun_Training</zorder>
-    <zorder>le_Food</zorder>
-    <zorder>le_Cloth</zorder>
-    <zorder>le_Minerals</zorder>
-    <zorder>le_Wine</zorder>
-    <zorder>le_Grain</zorder>
-    <zorder>le_Timber</zorder>
-    <zorder>le_Paper</zorder>
-    <zorder>le_Leather</zorder>
     <zorder>b_New</zorder>
     <zorder>b_Save</zorder>
     <zorder>cb_writeable</zorder>
     <zorder>b_Delete</zorder>
-    <zorder>comboBox_2</zorder>
-    <zorder>le_Food_2</zorder>
-    <zorder>le_Grain_2</zorder>
-    <zorder>le_Leather_2</zorder>
-    <zorder>le_Wine_2</zorder>
-    <zorder>le_Timber_2</zorder>
-    <zorder>le_Paper_2</zorder>
-    <zorder>le_Minerals_2</zorder>
-    <zorder>le_Cloth_2</zorder>
-    <zorder>l_Distance</zorder>
-    <zorder>l_Distance_2</zorder>
    </widget>
    <widget class="QLabel" name="label">
     <property name="geometry">
@@ -945,7 +933,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>724</width>
+     <width>736</width>
      <height>25</height>
     </rect>
    </property>
